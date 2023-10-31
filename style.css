@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 450px;
+    height: 300px;
+    background-color: rgb(101, 56, 143);
+    text-align: center;
+    border-radius: 10px;
+}
+.app_name {
+    height: 50px;
+}
+
+.span {
+    font-size: 40px;
+}
+
+.buttons_container {
+    margin-left: 20px;
+}
+
+.button {
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
